@@ -28,6 +28,11 @@ header h1 a {
   text-decoration: none;
   font-size: 38px;
 }
+@media screen and (max-width: 320px) {
+  header h1 a {
+    font-size: 34px;
+  }
+}
 header h1 a strong {
   color: #8b8b14;
 }
