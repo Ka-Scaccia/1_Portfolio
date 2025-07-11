@@ -30,7 +30,7 @@ header h1 a {
 }
 @media screen and (max-width: 320px) {
   header h1 a {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 header h1 a strong {
