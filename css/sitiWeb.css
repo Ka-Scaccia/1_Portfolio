@@ -26,11 +26,15 @@ header {
 header h1 a {
   color: #4e3b18;
   text-decoration: none;
-  font-size: 38px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   header h1 a {
     font-size: 26px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header h1 a {
+    font-size: 38px;
   }
 }
 header h1 a strong {
