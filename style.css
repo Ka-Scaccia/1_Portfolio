@@ -96,9 +96,9 @@ header h1 {
   transform-origin: 0 100%;
 }
 #menuToogle input:checked ~ span {
-  opacity: 1;
+  /* opacity: 1; */
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #fff;
+  /* background: #fff; */
 }
 #menuToogle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
@@ -129,6 +129,7 @@ header h1 {
   border-left: 3px solid beige;
   transition: transform 0.4s cubic-bezier(0.77, 0.2, 0.05, 1),
     opacity 0.4s cubic-bezier(0.77, 0.2, 0.05, 1), visibility 0s linear 0.4s;
+  z-index: -10;
 }
 #menu li {
   padding: 10px 0;
