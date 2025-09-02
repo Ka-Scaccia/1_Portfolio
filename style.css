@@ -197,7 +197,7 @@ header h1 {
 .Esperienze h3,
 .certificazioni h3,
 .contatti h3 {
-  font-size: 28px;
+  font-size: 48px;
   font-style: italic;
   font-weight: 700;
   margin-bottom: 60px;
@@ -214,7 +214,7 @@ header h1 {
   position: absolute;
 }
 .ChiSono p {
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 100;
   line-height: 1.5;
 }
@@ -228,7 +228,7 @@ header h1 {
 .slideshow-container {
   position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
 }
 .mySlides {
@@ -350,6 +350,15 @@ header h1 {
   font-size: 16px;
   box-sizing: border-box;
 }
+.contatti form input[type="text"],
+.contatti form input[type="email"] {
+  min-height: 3em;
+  min-width: 3em;
+}
+.contatti form textarea {
+  min-height: 10em;
+  min-width: 10em;
+}
 .contatti form input[type="text"]:focus,
 .contatti form textarea:focus {
   outline: 0;
@@ -367,12 +376,14 @@ header h1 {
   font-weight: 600;
   text-align: center;
 }
+
 .contatti form input[type="submit"]:hover {
   background: rgba(200, 200, 43);
   text-decoration: underline;
 }
 .contatti form textarea {
-  height: 120px;
+  min-height: 10em;
+  min-width: 20em;
   resize: none;
   padding: 8px;
 }
@@ -419,7 +430,7 @@ header h1 {
     flex-direction: column;
   }
   .informazioni h1 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 10px;
   }
   .Esperienze .elenco p,
@@ -427,8 +438,8 @@ header h1 {
     font-size: 14px;
   }
   .informazioni .titles svg {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
   }
   .lineaBottom {
     width: 20.6%;
@@ -451,11 +462,20 @@ header h1 {
     font-size: 12px;
   }
   .Esperienze .elenco {
-    width: auto;
+    width: 60% !important;
     padding: 4px;
   }
+  .Esperienze .elenco p {
+    font-size: 18px;
+  }
   .Esperienze .elenco img {
-    width: 140%;
+    width: 100%;
+  }
+  .Portfolio div,
+  .Portfolio div img {
+    width: 98% !important;
+    object-fit: cover;
+    padding: 4px;
   }
   .contatti form {
     width: auto;
@@ -482,11 +502,11 @@ header h1 {
 }
 @media screen and (min-width: 700px) {
   .informazioni h1 {
-    font-size: 54px;
+    font-size: 84px;
     margin-bottom: 10px;
   }
   .informazioni h2 {
-    font-size: 18px;
+    font-size: 28px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -496,12 +516,18 @@ header h1 {
   #menuToogle {
     display: block;
   }
+  .informazioni h1 {
+    font-size: 84px;
+  }
   .informazioni .titles svg {
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
   }
   .Esperienze .elenco p {
-    font-size: 18px;
+    font-size: 24px;
+  }
+  .Portfolio div {
+    width: 58% !important;
   }
   .footer h2 {
     font-size: 38px;

@@ -40,6 +40,15 @@ header h1 a {
 header h1 a strong {
   color: #8b8b14;
 }
+#alert {
+  font-style: italic;
+  color: white;
+}
+@media screen and (min-width: 1024px) {
+  #alert {
+    display: none;
+  }
+}
 .titoli {
   display: flex;
   flex-direction: column;
@@ -56,9 +65,18 @@ header h1 a strong {
   color: white;
 }
 .titoli h1 {
-  font-size: 44px;
   text-shadow: 4px 4px 4px orange;
   margin-bottom: 0;
+}
+@media screen and (min-width: 320px) {
+  .titoli h1 {
+    font-size: 34px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .titoli h1 {
+    font-size: 64px;
+  }
 }
 .titoli h3 {
   font-size: 24px;
@@ -73,8 +91,17 @@ header h1 a strong {
   margin: 0 auto;
 }
 .bio.content {
-  font-size: 18px;
   color: whitesmoke;
+}
+@media screen and (min-width: 320px) {
+  .bio.content {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bio.content {
+    font-size: 28px;
+  }
 }
 .gallery {
   display: flex;
@@ -86,23 +113,47 @@ header h1 a strong {
   margin: 0;
   margin: 80px;
 }
+@media screen and (min-width: 320px) {
+  .gallery {
+    flex-direction: column;
+    margin: 0;
+  }
+}
 .gallery .box-1 img,
 .gallery .box-2 img {
   border-radius: 16px;
   box-shadow: 0 0 10px orangered;
-  margin: 40px 0;
 }
-.gallery .box-1 img {
-  width: 70%;
-}
-.gallery .box-2 img {
-  width: 100%;
-}
-@media screen and (max-width: 320px) {
-  .gallery .box-1 img {
-    width: 100%;
-    margin: 14px 0;
+@media screen and (min-width: 320px) {
+  .gallery .box-1 img,
+  .gallery .box-2 img {
+    max-width: 1200px;
+    min-width: 300px;
+    padding: 4px;
   }
+}
+@media screen and (min-width: 1024px) {
+  .gallery .box-1 img,
+  .gallery .box-2 img {
+    margin: 40px 0;
+    width: 100%;
+  }
+}
+.gallery .box-1 h3 {
+  font-size: 24px;
+  margin-top: 8px;
+}
+@media screen and (min-width: 320px) {
+  .gallery .box-1 h3 {
+    text-align: center;
+  }
+}
+.gallery .box-1 a {
+  text-decoration: none;
+  color: white;
+}
+.gallery .box-1 a:hover {
+  text-decoration: underline;
 }
 .footer {
   margin-top: 120px;
