@@ -11,7 +11,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="./CSS/style.css">
         <!-- Libreria: icone -->
-      <script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.js"></script>
+        <script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.js"></script>
     </head>
     <body>
         <header>
@@ -42,6 +42,9 @@
                         <a href="./progetti/homepage.html">Progetti</a>
                     </li>
                     <li>
+                        <a href="certificazioni/certificazioni.html">Certificazioni</a>
+                    </li>
+                    <li>
                         <a
                             href="./file/CV.pdf"
                             class="button buttonBlue"
@@ -61,6 +64,9 @@
                         </li>
                         <li>
                             <a href="./progetti/homepage.html">Progetti</a>
+                        </li>
+                        <li>
+                            <a href="certificazioni/certificazioni.html">Certificazioni</a>
                         </li>
                         <li>
                             <a
@@ -198,7 +204,9 @@
                                 </svg>
                             </div>
                             <div class="content">
-                                <a href="./progetti/ristorante.html"><h3>Vetrina Ristorante</h3></a>
+                                <a href="./progetti/ristorante.html">
+                                    <h3>Vetrina Ristorante</h3>
+                                </a>
                                 <p>Esercizio di creazione di una vetrina di un ristorante (finto) con focus su: layout, form e menu</p>
                             </div>
                             <div class="tecnologie">
@@ -244,7 +252,9 @@
                                 </svg>
                             </div>
                             <div class="content">
-                                <a href="./progetti/agenziaViaggi.html"><h3>Agenzia di viaggi</h3></a>
+                                <a href="./progetti/agenziaViaggi.html">
+                                    <h3>Agenzia di viaggi</h3>
+                                </a>
                                 <p>Esercizio di creazione di un'agenzia di viaggi (finta) con focus su: layout, pagine dinamiche e generazione di contenuto con l'AI Gemini</p>
                             </div>
                             <div class="tecnologie">
@@ -294,7 +304,9 @@
                                 </svg>
                             </div>
                             <div class="content">
-                                <a href="./progetti/GialloZafferano.html"><h3>Clone Giallo Zafferano</h3></a>
+                                <a href="./progetti/GialloZafferano.html">
+                                    <h3>Clone Giallo Zafferano</h3>
+                                </a>
                                 <p>Esercizio di ricreazione del sito web Giallo Zafferano con focus su: layout, menu e slider</p>
                             </div>
                             <div class="tecnologie">
@@ -449,24 +461,26 @@
                     <div class="certificazioni_testo">
                         <h2>Certificazioni Corsi Online</h2>
                         <p class="grigio">Titoli e corsi completati sulle principali piattaforme di e-learning.</p>
-                        <span class="vediTutto">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="lucide lucide-move-right-icon lucide-move-right blu"
-                            >
-                                <path d="M18 8L22 12L18 16"/>
-                                <path d="M2 12H22"/>
-                            </svg>
-                            vedi tutte le certificazioni
-                        </span>
+                        <a href="certificazioni/certificazioni.html">
+                            <span class="vediTutto">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-move-right-icon lucide-move-right blu"
+                                >
+                                    <path d="M18 8L22 12L18 16"/>
+                                    <path d="M2 12H22"/>
+                                </svg>
+                                vedi tutte le certificazioni
+                            </span>
+                        </a>
                     </div>
                     <div class="certificazioni_content ">
                         <div class="card">
@@ -584,16 +598,23 @@
                     </div>
                     <div class="form card">
                         <form name="contatti" method="POST" netlify>
-                            <input type="hidden" name="form-name" value="contatti" />
+                            <input type="hidden" name="form-name" value="contatti">
                             <label class="grigio">Nome</label>
-                            <input type="text" placeholder="Il tuo nome" class="margin10 input"
-                            name="nome">
+                            <input
+                                type="text"
+                                placeholder="Il tuo nome"
+                                class="margin10 input"
+                                name="nome"
+                            >
                             <label class="grigio">Email</label>
-                            <input type="email" placeholder="La tua email" class="margin10 input"
-                            name="email">
+                            <input
+                                type="email"
+                                placeholder="La tua email"
+                                class="margin10 input"
+                                name="email"
+                            >
                             <label class="grigio">Messaggio</label>
-                            <textarea placeholder="Il tuo messaggio" class="margin10 input"
-                            name="messaggio"></textarea>
+                            <textarea placeholder="Il tuo messaggio" class="margin10 input" name="messaggio"></textarea>
                             <input type="submit" value="Invia Messaggio" class="buttonBlue button">
                         </form>
                     </div>
