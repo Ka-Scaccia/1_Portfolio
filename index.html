@@ -583,13 +583,17 @@
                         </ul>
                     </div>
                     <div class="form card">
-                        <form action="">
+                        <form name="contatti" method="POST" netlify>
+                            <input type="hidden" name="form-name" value="contatti" />
                             <label class="grigio">Nome</label>
-                            <input type="text" placeholder="Il tuo nome" class="margin10 input">
+                            <input type="text" placeholder="Il tuo nome" class="margin10 input"
+                            name="nome">
                             <label class="grigio">Email</label>
-                            <input type="email" placeholder="La tua email" class="margin10 input">
+                            <input type="email" placeholder="La tua email" class="margin10 input"
+                            name="email">
                             <label class="grigio">Messaggio</label>
-                            <textarea placeholder="Il tuo messaggio" class="margin10 input"></textarea>
+                            <textarea placeholder="Il tuo messaggio" class="margin10 input"
+                            name="messaggio"></textarea>
                             <input type="submit" value="Invia Messaggio" class="buttonBlue button">
                         </form>
                     </div>
