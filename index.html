@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- tag meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Katia Scacciaferro">
+        <meta name="description" content="Portoflio di Katia Scacciaferro, web developer front-end">
+        <meta name="keywords" content="portfolio, progetti, web developer, front-end">
+        <title>KS | Portoflio</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./CSS/style.css">
+        <!-- Libreria: icone -->
+      <script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-code-icon lucide-code"
+                >
+                    <path d="m16 18 6-6-6-6"/>
+                    <path d="m8 6-6 6 6 6"/>
+                </svg>
+                <h3>DevPortfolio</h3>
+            </div>
+            <div id="menuPC">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./progetti/homepage.html">Progetti</a>
+                    </li>
+                    <li>
+                        <a
+                            href="./file/CV.pdf"
+                            class="button buttonBlue"
+                            style="color: white;"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Scarica CV</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="menuMobile">
+                <ul class="nav-bar">
+                    <input type="checkbox" id="check">
+                    <span class="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./progetti/homepage.html">Progetti</a>
+                        </li>
+                        <li>
+                            <a
+                                href="./file/CV.pdf"
+                                class="button buttonBlue"
+                                style="color: white;"
+                                rel="noopener noreferrer"
+                            >Scarica CV</a>
+                        </li>
+                        <label for="check" class="close-menu">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-x-icon lucide-x"
+                            >
+                                <path d="M18 6 6 18"/>
+                                <path d="m6 6 12 12"/>
+                            </svg>
+                        </label>
+                    </span>
+                    <label for="check" class="open-menu">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-menu-icon lucide-menu"
+                        >
+                            <path d="M4 5h16"/>
+                            <path d="M4 12h16"/>
+                            <path d="M4 19h16"/>
+                        </svg>
+                    </label>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div id="Chisono" class="marginTOP40">
+                    <div id="Chisono_occupazione" class="blu">
+                        <span id="rigaBlu"></span>
+                        <h4 id="occupazioneH4">studente web developer</h4>
+                    </div>
+                    <div id="Chisono_testo">
+                        <h1>
+                            Ciao, sono
+                            <span class="blu">Katia Scacciaferro</span>
+                        </h1>
+                        <p class="grigio">
+                            Sto imparando a trasformare idee complesse in interfacce web.
+                        Appassionata del mondo della programmazione e in costante aggiornamento 
+                        sulle nuove tecnologie.
+                        </p>
+                    </div>
+                    <div id="Chisono_buttons">
+                        <a href="./progetti/homepage.html" class="button buttonBlue">I miei progetti</a>
+                        <a href="#" class="button buttonGrey">Contattami</a>
+                    </div>
+                </div>
+            </div>
+            <div id="progetti" class="marginTOP40 paddingBOTTOM40">
+                <div class="container">
+                    <div id="progetti_testo" class="marginBOTTOM40 marginTOP40">
+                        <h2>Progetti di studio</h2>
+                        <p class="grigio">Esperimenti e applicazioni sviluppate durante il mio percorso di apprendimento</p>
+                        <a href="./progetti/homepage.html">
+                            <span class="vediTutto">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-move-right-icon lucide-move-right blu"
+                                >
+                                    <path d="M18 8L22 12L18 16"/>
+                                    <path d="M2 12H22"/>
+                                </svg>
+                                vedi tutti i progetti
+                            </span>
+                        </a>
+                    </div>
+                    <div id="progetti_box">
+                        <div class="card">
+                            <div class="head_progetti">
+                                <svg
+                                    class="iconSiteFirst"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-cooking-pot-icon lucide-cooking-pot"
+                                >
+                                    <path d="M2 12h20"/>
+                                    <path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"/>
+                                    <path d="m4 8 16-4"/>
+                                    <path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8"/>
+                                </svg>
+                                <svg
+                                    class="grigio"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-code-icon lucide-code"
+                                >
+                                    <path d="m16 18 6-6-6-6"/>
+                                    <path d="m8 6-6 6 6 6"/>
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <a href="./progetti/ristorante.html"><h3>Vetrina Ristorante</h3></a>
+                                <p>Esercizio di creazione di una vetrina di un ristorante (finto) con focus su: layout, form e menu</p>
+                            </div>
+                            <div class="tecnologie">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="head_progetti">
+                                <svg
+                                    class="iconSiteSecond"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-plane-icon lucide-plane"
+                                >
+                                    <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>
+                                </svg>
+                                <svg
+                                    class="iconCode"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-code-icon lucide-code"
+                                >
+                                    <path d="m16 18 6-6-6-6"/>
+                                    <path d="m8 6-6 6 6 6"/>
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <a href="./progetti/agenziaViaggi.html"><h3>Agenzia di viaggi</h3></a>
+                                <p>Esercizio di creazione di un'agenzia di viaggi (finta) con focus su: layout, pagine dinamiche e generazione di contenuto con l'AI Gemini</p>
+                            </div>
+                            <div class="tecnologie">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                    <li>Gemini</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="head_progetti">
+                                <svg
+                                    class="iconSiteThird"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-cooking-pot-icon lucide-cooking-pot"
+                                >
+                                    <path d="M2 12h20"/>
+                                    <path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"/>
+                                    <path d="m4 8 16-4"/>
+                                    <path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8"/>
+                                </svg>
+                                <svg
+                                    class="iconCode"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-code-icon lucide-code"
+                                >
+                                    <path d="m16 18 6-6-6-6"/>
+                                    <path d="m8 6-6 6 6 6"/>
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <a href="./progetti/GialloZafferano.html"><h3>Clone Giallo Zafferano</h3></a>
+                                <p>Esercizio di ricreazione del sito web Giallo Zafferano con focus su: layout, menu e slider</p>
+                            </div>
+                            <div class="tecnologie">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="competenze marginTOP40">
+                    <div class="competenze_titolo">
+                        <h2>Competenze</h2>
+                    </div>
+                    <div class="competenze_content">
+                        <div class="card">
+                            <div class="head_competenze">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-terminal-icon lucide-terminal celeste"
+                                >
+                                    <path d="M12 19h8"/>
+                                    <path d="m4 17 6-6-6-6"/>
+                                </svg>
+                                <h3>Front-end</h3>
+                            </div>
+                            <div class="body">
+                                <ul>
+                                    <li>
+                                        HTML & CSS
+                                        <span class="intermedio">Intermedio</span>
+                                    </li>
+                                    <li>
+                                        JavaScript (ES6+)
+                                        <span class="base">Base</span>
+                                    </li>
+                                    <li>
+                                        React
+                                        <span class="base">Base</span>
+                                    </li>
+                                    <li>
+                                        SEO
+                                        <span class="intermedio">Intermedio</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="head_competenze">
+                                <svg
+                                    id="IconBackEnd"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-dataBase-icon lucide-dataBase"
+                                >
+                                    <ellipse
+                                        cx="12"
+                                        cy="5"
+                                        rx="9"
+                                        ry="3"
+                                    />
+                                    <path d="M3 5V19A9 3 0 0 0 21 19V5"/>
+                                    <path d="M3 12A9 3 0 0 0 21 12"/>
+                                </svg>
+                                <h3>Back-end</h3>
+                            </div>
+                            <div class="body">
+                                <ul>
+                                    <li>
+                                        Strapi
+                                        <span class="base">Base</span>
+                                    </li>
+                                    <li>
+                                        JSON
+                                        <span class="base">Base</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="head_competenze">
+                                <svg
+                                    id="iconTool"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-wrench-icon lucide-wrench"
+                                >
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/>
+                                </svg>
+                                <h3>Tool & Workflow</h3>
+                            </div>
+                            <div class="body">
+                                <ul>
+                                    <li>
+                                        Git
+                                        <span class="base">Base</span>
+                                    </li>
+                                    <li>
+                                        Github
+                                        <span class="intermedio">Intermedio</span>
+                                    </li>
+                                    <li>
+                                        Figma
+                                        <span class="base">Base</span>
+                                    </li>
+                                    <li>
+                                        VS Code
+                                        <span class="avanzato">Avanzato</span>
+                                    </li>
+                                    <li>
+                                        npm
+                                        <span class="intermedio">Intermedio</span>
+                                    </li>
+                                    <li>
+                                        responsive
+                                        <span class="avanzato">Avanzato</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="certificazioni marginTOP40 paddingTOP40 paddingBOTTOM40">
+                <div class="container">
+                    <div class="certificazioni_testo">
+                        <h2>Certificazioni Corsi Online</h2>
+                        <p class="grigio">Titoli e corsi completati sulle principali piattaforme di e-learning.</p>
+                        <span class="vediTutto">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-move-right-icon lucide-move-right blu"
+                            >
+                                <path d="M18 8L22 12L18 16"/>
+                                <path d="M2 12H22"/>
+                            </svg>
+                            vedi tutte le certificazioni
+                        </span>
+                    </div>
+                    <div class="certificazioni_content ">
+                        <div class="card">
+                            <h3>Web Developmment</h3>
+                            <h4 class="grigio">Learnn</h4>
+                            <a href="./file/certificazioni/webDevelopment.webp" target="_blank" class="celeste">
+                                Vedi certificato&nbsp;
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"
+                                >
+                                    <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                    <path d="m21 3-9 9"/>
+                                    <path d="M15 3h6v6"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h3>JavaScript</h3>
+                            <h4 class="grigio">Learnn</h4>
+                            <a href="./file/certificazioni/JavaScript.webp" target="_blank" class="celeste">
+                                Vedi certificato&nbsp;
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"
+                                >
+                                    <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                    <path d="m21 3-9 9"/>
+                                    <path d="M15 3h6v6"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h3>Python</h3>
+                            <h4 class="grigio">Learnn</h4>
+                            <a href="./file/certificazioni/Python.webp" target="_blank" class="celeste">
+                                Vedi certificato&nbsp;
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"
+                                >
+                                    <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                    <path d="m21 3-9 9"/>
+                                    <path d="M15 3h6v6"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h3>Python per Excel</h3>
+                            <h4 class="grigio">Learnn</h4>
+                            <a href="./file/certificazioni/PythoneExcel.webp" target="_blank" class="celeste">
+                                Vedi certificato&nbsp;
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"
+                                >
+                                    <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                    <path d="m21 3-9 9"/>
+                                    <path d="M15 3h6v6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- parte finale -->
+        <footer>
+            <div class="container paddingTOP40">
+                <div class="contatti">
+                    <div class="testo">
+                        <h2>Entriamo in contatto</h2>
+                        <p class="margin10 grigio">
+                            Attualmente sono concentrata sui miei studi e progetti personali
+                    e non sono aperta a offerte di lavoro. Tuttavia, mi fa sempre
+                    piacere conoscere altre persone appassionate al mondo della
+                    programmazione, ricevere feedback o discutere di codice.
+                        </p>
+                        <ul class="margin10">
+                            <li>katiascsccia@gmail.com</li>
+                            <li>Toscana, Italia</li>
+                        </ul>
+                    </div>
+                    <div class="form card">
+                        <form action="">
+                            <label class="grigio">Nome</label>
+                            <input type="text" placeholder="Il tuo nome" class="margin10 input">
+                            <label class="grigio">Email</label>
+                            <input type="email" placeholder="La tua email" class="margin10 input">
+                            <label class="grigio">Messaggio</label>
+                            <textarea placeholder="Il tuo messaggio" class="margin10 input"></textarea>
+                            <input type="submit" value="Invia Messaggio" class="buttonBlue button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="dichiarazioniFin marginTOP40 paddingTOP40 paddingBOTTOM40">
+                <div class="container">
+                    <div class="logo">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-code-icon lucide-code celeste"
+                        >
+                            <path d="m16 18 6-6-6-6"/>
+                            <path d="m8 6-6 6 6 6"/>
+                        </svg>
+                        <h3>DevPortfolio</h3>
+                    </div>
+                    <div class="copyright">
+                        <h4 class="grigio">&copy; Katia Scacciaferro 2026</h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
