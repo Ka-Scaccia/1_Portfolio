@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- tag meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Katia Scacciaferro">
+        <meta name="description" content="Portoflio di Katia Scacciaferro, web developer front-end">
+        <meta name="keywords" content="portfolio, progetti, web developer, front-end, landing-page">
+        <title>KS | Progetto: Landing Page</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/progetti.css">
+        <!-- Libreria: icone -->
+        <script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-code-icon lucide-code"
+                >
+                    <path d="m16 18 6-6-6-6"/>
+                    <path d="m8 6-6 6 6 6"/>
+                </svg>
+                <h3>DevPortfolio</h3>
+            </div>
+            <div id="menuPC">
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="homepage.html">Progetti</a>
+                    </li>
+                    <li>
+                        <a href="../certificazioni/certificazioni.html">Certificazioni</a>
+                    </li>
+                    <li>
+                        <a
+                            href="../file/CV.pdf"
+                            class="button buttonBlue"
+                            style="color: white;"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Scarica CV</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="menuMobile">
+                <ul class="nav-bar">
+                    <input type="checkbox" id="check">
+                    <span class="menu">
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="homepage.html">Progetti</a>
+                        </li>
+                        <li>
+                            <a href="../certificazioni/certificazioni.html">Certificazioni</a>
+                        </li>
+                        <li>
+                            <a
+                                href="../file/CV.pdf"
+                                class="button buttonBlue"
+                                style="color: white;"
+                                rel="noopener noreferrer"
+                            >Scarica CV</a>
+                        </li>
+                        <label for="check" class="close-menu">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-x-icon lucide-x"
+                            >
+                                <path d="M18 6 6 18"/>
+                                <path d="m6 6 12 12"/>
+                            </svg>
+                        </label>
+                    </span>
+                    <label for="check" class="open-menu">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-menu-icon lucide-menu"
+                        >
+                            <path d="M4 5h16"/>
+                            <path d="M4 12h16"/>
+                            <path d="M4 19h16"/>
+                        </svg>
+                    </label>
+                </ul>
+            </div>
+        </header>
+        <!-- contenuto principale -->
+        <main class="container">
+            <!-- info progetto -->
+            <div class="infoProject marginTOP40">
+                <h1 class="grigio">
+                    <span class="evidence">Landing Page</span>
+                    di degustazioni
+                </h1>
+                <p class="bioProject grigio">
+                    Realizzata una landing page "I sapori del
+                    Mediterraneo":
+                    <a href="https://vqui.it/w/Iv8F5l?from=%2Fit%2Flanding-page%2Ftemplate" 
+                    class="evidence" target="_blank">vedi Template</a>. 
+                    <br>span
+                    Il progetto è <span class="underline">gestito dinamicamente</span> tramite 
+                    <span class="underline">JavaScript</span> per la <span class="underline">scelta</span> 
+                    e <span class="underline">ricerca della prenotazione </span> 
+                    e la <span class="underline">gestione del form</span>, inoltre è 
+                    <span class="underline">totalmente responsive</span>. 
+                </p>
+            </div>
+            <div class="previewProject marginTOP40">
+                <img src="../img/collage_LandingPage.png" alt="collage Landing page"
+                class="collageProject">
+                <div class="btns">
+                    <button class="button buttonBlue">
+                    <a href="https://landingpagetemplateks.netlify.app/"
+                    target="_blank">Visita il sito</a></button>
+                    <button class="button buttonGrey">
+                    <a href="https://github.com/Ka-Scaccia/2_LandingPage"
+                    target="_blank">Vedi il codice</a></button>
+                </div>
+            </div>
+            <div class="otherInfoProject marginTOP40">
+                <div class="tech">
+                    <h2 class="grigio">Quali <span class="evidence">tecnologie</span> ho usato?</h2>
+                    <ul class="grigio">
+                        <li><span class="evidence">HTML</span>: per 
+                        definire la <span class="underline">struttura</span>
+                        della pagina, privilegiando <span class="underline">l'accessibilità</span> 
+                        e la <span class="underline">SEO</span>.</li>
+                        <li><span class="evidence">CSS</span>: per 
+                        curare <span class="underline">l'estetica del sito</span> tramite fogli di 
+                        stile, implementando <span class="underline">layout flessibili</span> con 
+                        <span class="underline">Flexbox</span>. La pagina è progettata per essere 
+                        totalmente responsive, <span class="underline">adattandosi perfettamente
+                        a ogni dispositivo</span>, dallo smartphone al desktop.</li>
+                        <li><span class="evidence">JS</span>: per <span class="underline">gestire la dinamicità</span>
+                        dell'interfaccia, inclusa la <span class="underline">logica per la selezione dei posti, la 
+                        ricerca delle prenotazioni</span> in tempo reale e la <span class="underline">validazione dei 
+                        dati inseriti nel form</span>.</li>
+                        <li><span class="evidence">Lucide Icon</span>: una <span class="underline">libreria di icone
+                        vettoriali</span> che contribuisce a rendere <span class="underline">l'interfaccia intuitiva
+                        </span>.</li>
+                        <li><span class="evidence">Flatpickr</span>: un'integrazione esterna leggera e potente che 
+                        fornisce un <span class="underline">calendario interattivo per la scelta della data di prenotazione, ottimizzando 
+                        l'esperienza di input dell'utente</span> ed <span class="underline">evitando errori di formattazione</span>.</li>
+                    </ul>
+                </div>
+                <div class="other marginTOP40">
+                    <h2 class="grigio">Altre <span class="evidence">informazioni</span> sul progetto</h2>
+                    <ul class="grigio">
+                        <li><span class="evidence">Anno:</span>
+                        <span class="underline"> 2026</span>
+                        </li>
+                        <li><span class="evidence">Ruolo:</span>
+                        <span class="underline"> Web Developer Front-end </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <!-- parte finale -->
+        <footer>
+            <div class="dichiarazioniFin marginTOP40 paddingTOP40 paddingBOTTOM40">
+                <div class="container">
+                    <div class="logo">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-code-icon lucide-code celeste"
+                        >
+                            <path d="m16 18 6-6-6-6"/>
+                            <path d="m8 6-6 6 6 6"/>
+                        </svg>
+                        <h3>DevPortfolio</h3>
+                    </div>
+                    <div class="copyright">
+                        <h4 class="grigio">&copy; Katia Scacciaferro 2026</h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

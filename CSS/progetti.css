@@ -1,8 +1,13 @@
+/* utili */
 .button {
   padding: 12px;
+  border: 1px solid transparent;
 }
 .button.buttonGrey {
   background-color: #283039;
+}
+.button.buttonBlue {
+  background-color: #2b8cee;
 }
 .evidence {
   color: #2b8cee;
@@ -10,54 +15,45 @@
 .underline {
   text-decoration: underline #2b8cee 3px;
 }
+/* generali */
 h1 {
   margin-bottom: 4px;
-}
-h2 {
-  margin-bottom: 10px;
 }
 li {
   font-size: 18px;
   margin: 8px 0;
 }
-video {
-  width: 100%;
-  max-width: 900px;
+button {
+  margin: 10px;
 }
+/* contenuto principale */
+.previewProject {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.collageProject {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 60px;
+}
+/* responsive */
 @media screen and (min-width: 1024px) {
   li {
     font-size: 20px;
   }
-}
-.progetto {
-  color: #fff;
-  margin-top: 20px;
-}
-.links {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-@media screen and (min-width: 768px) {
-  .links {
-    flex-direction: row;
-    gap: 20px;
+  .previewProject {
+    flex-wrap: nowrap;
   }
-}
-.links svg {
-  display: inline;
-  vertical-align: middle;
-}
-.links a {
-  vertical-align: middle;
-}
-/* extra: video */
-.video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 90%;
-  height: calc(100vh - 228px);
+  .collageProject {
+    width: auto;
+    max-height: 340px;
+    object-fit: contain;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
 }
