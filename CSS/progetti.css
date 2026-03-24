@@ -8,6 +8,7 @@
 }
 .button.buttonBlue {
   background-color: #2b8cee;
+  margin-right: 10px;
 }
 .evidence {
   color: #2b8cee;
@@ -24,7 +25,7 @@ li {
   margin: 8px 0;
 }
 button {
-  margin: 10px;
+  margin: 0 20px 20px 0px;
 }
 /* contenuto principale */
 .previewProject {
@@ -51,9 +52,5 @@ button {
     width: auto;
     max-height: 340px;
     object-fit: contain;
-  }
-  .btns {
-    display: flex;
-    flex-direction: column;
   }
 }
