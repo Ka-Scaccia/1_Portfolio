@@ -1,17 +1,1 @@
-.certificazioni {
-  background-color: #fff0;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.titoloCertificazioni {
-    margin-top: 30px;
-    text-align: left;
-}
-
-@media screen and (min-width: 768px) {
-  .certificazioni {
-    flex-direction: row;
-  }
-}
+.certificazioni{background-color:#fff0;display:flex;flex-direction:column;gap:20px}.titoloCertificazioni{margin-top:30px;text-align:left}@media screen and (min-width:768px){.certificazioni{flex-direction:row}}
