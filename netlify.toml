@@ -10,3 +10,8 @@
   for = "/file/certificazioni/*.pdf"
   [headers.values]
     X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/file/CV.pdf"
+  [headers.values]
+    X-Robots-Tag = "noindex"
