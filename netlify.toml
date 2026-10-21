@@ -4,3 +4,4 @@
     X-Content-Type-Options = "nosniff"
     Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
     X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
